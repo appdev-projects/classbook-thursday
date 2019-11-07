@@ -247,3 +247,11 @@ background-color: rgba(0, 0, 0, 0.5)
 box-shadow: 0 1px 3px rgba(0,0,0,0.12);
 list-style-type: square;
 ```
+
+## Web Git Changes
+
+In `app/assests/config/manifest.js` add the following lines to the end of the file:
+```js
+//= link web_git/application.css
+//= link web_git/application.js
+```
